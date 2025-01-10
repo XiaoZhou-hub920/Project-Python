@@ -17,7 +17,7 @@ Cette application permet de collecter et analyser des documents provenant de Red
 
 1. Clonez ce repository ou téléchargez le code.
 2. Créez un environnement virtuel:
-   ```bash
+
    python -m venv env
 
 
