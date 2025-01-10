@@ -21,14 +21,16 @@ Cette application permet de collecter et analyser des documents provenant de Red
    python -m venv env
 
 
-## utilisation
-1.Exécutez l'application Streamlit:
+## Utilisation
+1.Exécuter l'application Streamlit :
  ```bash
  streamlit run Version_3_Application.py
-2. L'interface sera accesible sur : http://localhost:8501 dans votre navigateur
+2.Accéder à l'interface :
+L'interface sera accessible dans votre navigateur à l'adresse suivante :
+http://localhost:8501
 
-## installer les dépendances
-
+## Installation des dépendances
+Pour installer toutes les dépendances nécessaires au projet, exécutez la commande suivante :
 ```bash
 pip install -r requirements.txt
 
