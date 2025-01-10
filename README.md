@@ -17,9 +17,4 @@ Ce projet est un moteur de recherche basé sur Python, conçu pour analyser et r
   - Utilisation de Streamlit pour une interface simple et interactive.
   - Visualisation des résultats et exportation en CSV.
 
-## Installation
 
-1. **Cloner le projet :**
-   ```bash
-   git clone https://github.com/<votre_nom_utilisateur>/<nom_du_projet>.git
-   cd <nom_du_projet>
