@@ -91,7 +91,7 @@ def test_recherche(corpus_builder_with_query_results):
     for doc, score in resultats:
         print(f"Titre: {doc.titre}, Texte: {doc.texte}, Score: {score}")
 
-    # 修复断言逻辑，忽略大小写
+    # Corriger la logique d'assertion, ignorer la casseCorriger la logique d'assertion, ignorer la casse
     assert len(resultats) > 0  # S'assurer qu'il y a des résultats
     assert all(
         "vaccine" in doc.titre.lower() or "vaccine" in doc.texte.lower()
