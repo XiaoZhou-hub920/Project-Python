@@ -1,20 +1,38 @@
 # Project-Python
 
-Ce projet est un moteur de recherche basé sur Python, conçu pour analyser et rechercher des informations dans des corpus textuels provenant de Reddit et Arxiv.
+# Moteur de Recherche - Corpus COVID
+
+Cette application permet de collecter et analyser des documents provenant de Reddit et d'Arxiv, en lien avec des sujets liés au COVID. Elle utilise une combinaison de méthodes de traitement de texte pour créer un corpus, puis permet d'effectuer des recherches par similarité cosinus. L'application est construite avec Streamlit pour une interface interactive.
 
 ## Fonctionnalités
 
-- **Collecte de données** :
-  - Collecte des données textuelles à partir de Reddit via son API.
-  - Récupération des résumés de recherches scientifiques depuis Arxiv.
+- Collecte de données à partir de Reddit et Arxiv.
+- Création d'un corpus combiné.
+- Calcul des statistiques du corpus (moyenne de mots, phrases, etc.).
+- Recherche dans le corpus avec un moteur basé sur la similarité cosinus.
+- Affichage des résultats et possibilité de les exporter au format CSV.
+- Interface utilisateur interactive avec Streamlit.
 
-- **Analyse et traitement** :
-  - Construction de matrices TF (Term Frequency) et TF-IDF.
-  - Calcul des statistiques textuelles (nombre moyen de mots, de phrases, etc.).
-  - Recherche par mots-clés avec la similarité cosinus.
+## Installation
 
-- **Interface utilisateur** :
-  - Utilisation de Streamlit pour une interface simple et interactive.
-  - Visualisation des résultats et exportation en CSV.
+1. Clonez ce repository ou téléchargez le code.
+2. Créez un environnement virtuel:
+   ```bash
+   python -m venv env
+
+
+## utilisation
+1.Exécutez l'application Streamlit   
+ 
+streamlit run Version_3_Application.py
+
+2. L'interface sera accesible sur : http://localhost:8501 dans votre navigateur
+
+## installer les dépendances
+
+pip install -r requirements.txt
+
+
+
 
 
