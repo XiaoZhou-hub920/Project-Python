@@ -1,5 +1,5 @@
 import pytest
-from application import Document, CorpusBuilder
+from Version_3_Application import Document, CorpusBuilder
 
 # Utilisation de pytest fixture pour charger les résultats de recherche dans CorpusBuilder
 @pytest.fixture
