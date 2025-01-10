@@ -25,6 +25,7 @@ Cette application permet de collecter et analyser des documents provenant de Red
 1.Exécuter l'application Streamlit :
 
  streamlit run Version_3_Application.py
+ 
 2.Accéder à l'interface :
 L'interface sera accessible dans votre navigateur à l'adresse suivante :
 http://localhost:8501
